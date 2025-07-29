@@ -1,0 +1,95 @@
+[gd_scene load_steps=6 format=3 uid="uid://bcefvpwa5thho"]
+
+[ext_resource type="Script" uid="uid://mdsttc00rcsv" path="res://scripts/generator.gd" id="1_f6vxs"]
+[ext_resource type="Script" uid="uid://bm6mf00e4g1ey" path="res://scripts/lava_attributes.gd" id="2_n5j8b"]
+[ext_resource type="PackedScene" uid="uid://075ge0vi3m68" path="res://samples/darius.tscn" id="3_m650i"]
+[ext_resource type="PackedScene" uid="uid://cy42gvo42fvaf" path="res://samples/tol.tscn" id="4_m650i"]
+
+[sub_resource type="Resource" id="Resource_fgk3t"]
+script = ExtResource("2_n5j8b")
+enabled = true
+visible = true
+render_in_front = false
+tag = "default"
+tap_mode = 0
+metadata/_custom_type_script = "uid://bm6mf00e4g1ey"
+
+[node name="Tool" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_f6vxs")
+lava_attributes = SubResource("Resource_fgk3t")
+metadata/_custom_type_script = "uid://mdsttc00rcsv"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 640.0
+offset_bottom = 384.0
+color = Color(0.498039, 0.341176, 0.52549, 1)
+
+[node name="Darius" parent="ColorRect" instance=ExtResource("3_m650i")]
+layout_mode = 1
+rotation = -0.13439
+
+[node name="Tol" parent="ColorRect" instance=ExtResource("4_m650i")]
+layout_mode = 1
+offset_left = 224.0
+offset_top = -96.0
+offset_right = 224.0
+offset_bottom = -96.0
+rotation = 0.221973
+scale = Vector2(0.85, 0.85)
+
+[node name="Text" type="Control" parent="ColorRect"]
+anchors_preset = 0
+offset_top = 192.0
+offset_right = 32.0
+offset_bottom = 224.0
+
+[node name="ColorRect" type="ColorRect" parent="ColorRect/Text"]
+layout_mode = 0
+offset_left = 32.0
+offset_top = 40.0
+offset_right = 72.0
+offset_bottom = 48.0
+
+[node name="ColorRect" type="ColorRect" parent="ColorRect/Text/ColorRect"]
+offset_right = 8.0
+offset_bottom = 32.0
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect/Text/ColorRect"]
+offset_top = 24.0
+offset_right = 40.0
+offset_bottom = 32.0
+
+[node name="ColorRect3" type="ColorRect" parent="ColorRect/Text/ColorRect"]
+offset_left = 32.0
+offset_top = -24.0
+offset_right = 40.0
+offset_bottom = 32.0
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect/Text"]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 112.0
+offset_right = 112.0
+offset_bottom = 160.0
+
+[node name="ColorRect" type="ColorRect" parent="ColorRect/Text/ColorRect2"]
+layout_mode = 0
+offset_top = 40.0
+offset_right = 40.0
+offset_bottom = 48.0
+
+[node name="ColorRect2" type="ColorRect" parent="ColorRect/Text/ColorRect2"]
+offset_top = 16.0
+offset_right = 24.0
+offset_bottom = 24.0
+
+[node name="ColorRect3" type="ColorRect" parent="ColorRect/Text"]
+layout_mode = 0
+offset_left = 112.0
+offset_top = 64.0
+offset_right = 120.0
+offset_bottom = 155.0
+rotation = 0.785398

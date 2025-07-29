@@ -1,0 +1,74 @@
+[gd_scene load_steps=4 format=3 uid="uid://cy42gvo42fvaf"]
+
+[ext_resource type="PackedScene" uid="uid://duoesg4v3qwkh" path="res://samples/tol_left.tscn" id="1_8b7l4"]
+[ext_resource type="Texture2D" uid="uid://blu0vlyok0wy7" path="res://samples/tol.webp" id="1_fd1fd"]
+[ext_resource type="PackedScene" uid="uid://s0jyjkbi1y25" path="res://samples/tol_outline_left.tscn" id="2_rqtmm"]
+
+[node name="Tol" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Body1" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 152.0
+offset_right = 472.0
+offset_bottom = 408.0
+
+[node name="Body2" type="ColorRect" parent="."]
+layout_mode = 0
+offset_top = 216.0
+offset_right = 512.0
+offset_bottom = 272.0
+
+[node name="Body3" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 136.0
+offset_top = 104.0
+offset_right = 376.0
+offset_bottom = 152.0
+
+[node name="Body4" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 88.0
+offset_top = 408.0
+offset_right = 424.0
+offset_bottom = 448.0
+
+[node name="Body5" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 184.0
+offset_top = 448.0
+offset_right = 328.0
+offset_bottom = 464.0
+
+[node name="Body6" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 184.0
+offset_top = 94.0
+offset_right = 328.0
+offset_bottom = 110.0
+
+[node name="Left" parent="." instance=ExtResource("1_8b7l4")]
+
+[node name="Right" parent="." instance=ExtResource("1_8b7l4")]
+offset_left = 512.0
+offset_right = 552.0
+scale = Vector2(-1, 1)
+
+[node name="OutlineLeft" parent="." instance=ExtResource("2_rqtmm")]
+
+[node name="OutlineRight" parent="." instance=ExtResource("2_rqtmm")]
+offset_left = 512.0
+offset_right = 552.0
+scale = Vector2(-1, 1)
+
+[node name="Tol" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(1, 1, 1, 0.811765)
+position = Vector2(256, 256)
+texture = ExtResource("1_fd1fd")

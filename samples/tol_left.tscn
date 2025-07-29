@@ -1,0 +1,53 @@
+[gd_scene format=3 uid="uid://duoesg4v3qwkh"]
+
+[node name="Left" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 80.6128
+offset_top = 124.54
+offset_right = 139.613
+offset_bottom = 169.54
+rotation = -0.348314
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 152.0
+offset_right = 89.0
+offset_bottom = 180.0
+rotation = -0.592437
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+layout_mode = 0
+offset_top = 216.0
+offset_right = 56.0
+offset_bottom = 256.0
+rotation = -0.782887
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+layout_mode = 0
+offset_top = 272.0
+offset_right = 40.0
+offset_bottom = 358.0
+rotation = -0.522773
+
+[node name="ColorRect5" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 408.0
+offset_right = 99.0
+offset_bottom = 470.0
+rotation = -0.877733
+
+[node name="ColorRect6" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 125.0
+offset_top = 448.0
+offset_right = 165.0
+offset_bottom = 509.0
+rotation = -1.30996

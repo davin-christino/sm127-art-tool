@@ -1,0 +1,394 @@
+[gd_scene format=3 uid="uid://s0jyjkbi1y25"]
+
+[node name="Outline" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+metadata/_edit_lock_ = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_left = 135.0
+offset_top = 98.0
+offset_right = 264.0
+offset_bottom = 110.0
+rotation = -0.101903
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="."]
+offset_left = 80.0
+offset_top = 118.0
+offset_right = 139.0
+offset_bottom = 130.0
+rotation = -0.347119
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="."]
+offset_left = 35.0
+offset_top = 147.0
+offset_right = 89.0
+offset_bottom = 159.0
+rotation = -0.57063
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="."]
+offset_left = 35.0
+offset_top = 147.0
+offset_right = 47.0
+offset_bottom = 175.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="."]
+offset_left = -5.0
+offset_top = 212.0
+offset_right = 58.0
+offset_bottom = 223.0
+rotation = -0.794041
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="."]
+offset_left = -5.0
+offset_top = 212.0
+offset_right = 7.0
+offset_bottom = 268.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect7" type="ColorRect" parent="."]
+offset_left = -5.0
+offset_top = 268.0
+offset_right = 7.0
+offset_bottom = 353.0
+rotation = -0.508155
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect8" type="ColorRect" parent="."]
+offset_left = 35.0
+offset_top = 336.0
+offset_right = 47.0
+offset_bottom = 409.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect9" type="ColorRect" parent="."]
+offset_left = 35.0
+offset_top = 409.0
+offset_right = 47.0
+offset_bottom = 451.0
+rotation = -0.730135
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect10" type="ColorRect" parent="."]
+offset_left = 63.0
+offset_top = 440.0
+offset_right = 75.0
+offset_bottom = 488.0
+rotation = -1.26307
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect11" type="ColorRect" parent="."]
+offset_left = 108.0
+offset_top = 455.0
+offset_right = 120.0
+offset_bottom = 495.0
+rotation = -1.52925
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect12" type="ColorRect" parent="."]
+offset_left = 145.0
+offset_top = 456.0
+offset_right = 157.0
+offset_bottom = 503.0
+rotation = -1.30518
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect13" type="ColorRect" parent="."]
+offset_left = 189.0
+offset_top = 468.0
+offset_right = 201.0
+offset_bottom = 543.0
+rotation = -1.49049
+color = Color(0, 0, 0, 1)
+
+[node name="Eyes&Nose" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="Eyes&Nose"]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 203.0
+offset_right = 134.0
+offset_bottom = 212.0
+rotation = -0.578258
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 101.0
+offset_top = 215.0
+offset_right = 111.0
+offset_bottom = 234.0
+rotation = -0.893458
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 109.0
+offset_top = 201.0
+offset_right = 119.0
+offset_bottom = 219.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 104.0
+offset_top = 203.0
+offset_right = 114.0
+offset_bottom = 215.0
+rotation = 0.254633
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 129.0
+offset_top = 187.0
+offset_right = 168.0
+offset_bottom = 196.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 116.0
+offset_top = 218.0
+offset_right = 155.0
+offset_bottom = 227.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect7" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 168.0
+offset_top = 187.0
+offset_right = 199.0
+offset_bottom = 197.0
+rotation = 0.694159
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect8" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 139.0
+offset_top = 196.0
+offset_right = 149.0
+offset_bottom = 227.0
+rotation = -0.81622
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect9" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 143.0
+offset_top = 218.0
+offset_right = 159.0
+offset_bottom = 231.0
+rotation = -0.81622
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect10" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 149.0
+offset_top = 213.0
+offset_right = 184.0
+offset_bottom = 228.0
+rotation = -0.399572
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect11" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 153.0
+offset_top = 194.0
+offset_right = 174.0
+offset_bottom = 212.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect12" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 182.0
+offset_top = 211.0
+offset_right = 194.0
+offset_bottom = 248.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect13" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 182.0
+offset_top = 209.0
+offset_right = 212.0
+offset_bottom = 220.0
+rotation = -0.222562
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect14" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 152.0
+offset_top = 266.0
+offset_right = 196.0
+offset_bottom = 278.0
+rotation = -0.669307
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect15" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 152.0
+offset_top = 270.0
+offset_right = 163.0
+offset_bottom = 327.0
+rotation = -0.793317
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect16" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 152.0
+offset_top = 266.0
+offset_right = 165.0
+offset_bottom = 270.0
+rotation = -0.0132712
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect18" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 207.0
+offset_top = 285.0
+offset_right = 218.0
+offset_bottom = 311.0
+rotation = 0.882591
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect17" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 207.0
+offset_top = 285.0
+offset_right = 235.0
+offset_bottom = 294.0
+rotation = 0.303223
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect19" type="ColorRect" parent="Eyes&Nose"]
+offset_left = 232.0
+offset_top = 293.0
+offset_right = 261.0
+offset_bottom = 302.0
+rotation = 0.109427
+color = Color(0, 0, 0, 1)
+
+[node name="WhiteRect" type="ColorRect" parent="Eyes&Nose"]
+layout_mode = 0
+offset_left = 180.0
+offset_top = 306.0
+offset_right = 210.0
+offset_bottom = 315.0
+
+[node name="Mouth" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="Mouth"]
+layout_mode = 0
+offset_left = 70.0
+offset_top = 248.0
+offset_right = 81.0
+offset_bottom = 281.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Mouth"]
+offset_left = 71.0
+offset_top = 259.0
+offset_right = 82.0
+offset_bottom = 295.0
+rotation = 0.538117
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="Mouth"]
+offset_left = 68.0
+offset_top = 282.0
+offset_right = 79.0
+offset_bottom = 335.0
+rotation = -0.940842
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="Mouth"]
+offset_left = 111.0
+offset_top = 314.0
+offset_right = 122.0
+offset_bottom = 368.0
+rotation = -1.35666
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="Mouth"]
+offset_left = 162.0
+offset_top = 325.0
+offset_right = 173.0
+offset_bottom = 375.0
+rotation = -1.5762
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect6" type="ColorRect" parent="Mouth"]
+offset_left = 212.0
+offset_top = 325.0
+offset_right = 223.0
+offset_bottom = 375.0
+rotation = -1.74581
+color = Color(0, 0, 0, 1)
+
+[node name="WhiteRect" type="ColorRect" parent="Mouth"]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 293.0
+offset_right = 72.0
+offset_bottom = 313.0
+
+[node name="WhiteRect2" type="ColorRect" parent="Mouth"]
+offset_left = 40.0
+offset_top = 285.0
+offset_right = 54.0
+offset_bottom = 296.0
+
+[node name="Cheeks" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="ColorRect" type="ColorRect" parent="Cheeks"]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 226.0
+offset_right = 89.0
+offset_bottom = 237.0
+rotation = 0.0366455
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Cheeks"]
+offset_left = 40.0
+offset_top = 235.0
+offset_right = 62.0
+offset_bottom = 246.0
+rotation = -0.424184
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect3" type="ColorRect" parent="Cheeks"]
+offset_left = 89.0
+offset_top = 227.0
+offset_right = 115.0
+offset_bottom = 238.0
+rotation = 0.738863
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect4" type="ColorRect" parent="Cheeks"]
+offset_left = 94.0
+offset_top = 244.0
+offset_right = 118.0
+offset_bottom = 253.0
+color = Color(0, 0, 0, 1)
+
+[node name="ColorRect5" type="ColorRect" parent="Cheeks"]
+offset_left = 113.0
+offset_top = 246.0
+offset_right = 130.0
+offset_bottom = 255.0
+rotation = -0.610821
+color = Color(0, 0, 0, 1)
+
+[node name="WhiteRect" type="ColorRect" parent="Cheeks"]
+layout_mode = 0
+offset_left = 28.0
+offset_top = 243.0
+offset_right = 58.0
+offset_bottom = 256.0
+
+[node name="WhiteRect2" type="ColorRect" parent="Cheeks"]
+offset_left = 22.0
+offset_top = 232.0
+offset_right = 41.0
+offset_bottom = 245.0
