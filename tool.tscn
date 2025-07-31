@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=3 uid="uid://bcefvpwa5thho"]
+[gd_scene load_steps=8 format=3 uid="uid://bcefvpwa5thho"]
 
 [ext_resource type="Script" uid="uid://mdsttc00rcsv" path="res://scripts/generator.gd" id="1_f6vxs"]
 [ext_resource type="Script" uid="uid://bm6mf00e4g1ey" path="res://scripts/lava_attributes.gd" id="2_n5j8b"]
+[ext_resource type="Script" uid="uid://dqix1xtryhvdl" path="res://scripts/water_attributes.gd" id="3_fgk3t"]
 [ext_resource type="PackedScene" uid="uid://075ge0vi3m68" path="res://samples/darius.tscn" id="3_m650i"]
 [ext_resource type="PackedScene" uid="uid://cy42gvo42fvaf" path="res://samples/tol.tscn" id="4_m650i"]
 
@@ -14,11 +15,22 @@ tag = "default"
 tap_mode = 0
 metadata/_custom_type_script = "uid://bm6mf00e4g1ey"
 
+[sub_resource type="Resource" id="Resource_bv1xd"]
+script = ExtResource("3_fgk3t")
+enabled = true
+visible = true
+render_in_front = false
+tag = "default"
+tap_mode = 0
+toxicity = 1.0
+metadata/_custom_type_script = "uid://dqix1xtryhvdl"
+
 [node name="Tool" type="Control"]
 layout_mode = 3
 anchors_preset = 0
 script = ExtResource("1_f6vxs")
 lava_attributes = SubResource("Resource_fgk3t")
+water_attributes = SubResource("Resource_bv1xd")
 metadata/_custom_type_script = "uid://mdsttc00rcsv"
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -54,15 +66,18 @@ offset_right = 72.0
 offset_bottom = 48.0
 
 [node name="ColorRect" type="ColorRect" parent="ColorRect/Text/ColorRect"]
+layout_mode = 0
 offset_right = 8.0
 offset_bottom = 32.0
 
 [node name="ColorRect2" type="ColorRect" parent="ColorRect/Text/ColorRect"]
+layout_mode = 0
 offset_top = 24.0
 offset_right = 40.0
 offset_bottom = 32.0
 
 [node name="ColorRect3" type="ColorRect" parent="ColorRect/Text/ColorRect"]
+layout_mode = 0
 offset_left = 32.0
 offset_top = -24.0
 offset_right = 40.0
@@ -82,6 +97,7 @@ offset_right = 40.0
 offset_bottom = 48.0
 
 [node name="ColorRect2" type="ColorRect" parent="ColorRect/Text/ColorRect2"]
+layout_mode = 0
 offset_top = 16.0
 offset_right = 24.0
 offset_bottom = 24.0
