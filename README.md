@@ -15,7 +15,9 @@ The art will appear at the top left corner 0, 0 at a scale of 1px in Godot = 1px
 
 ### 3. LIMITATIONS
 a. Skewed ColorRects (parallelograms) are not supported by the game, hence they will look incorrect in-game.
+
 b. The tool cannot detect top level enabled nodes, or nodes with non-standard Z order. Please use the node order in the scene tree to layer ColorRects.
-b. There is no equivalent to Sheets Theme colours. Not sure if I will implement this, might happen but don't count on it.
+
+c. There is no equivalent to Sheets Theme colours. Not sure if I will implement this, might happen but don't count on it.
 
 Ask to me (davinchristino) on the 127 discord server for further queries!
